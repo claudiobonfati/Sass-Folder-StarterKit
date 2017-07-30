@@ -1,0 +1,25 @@
+// ==========================================================================
+// THEME
+// BOOTSTRAP REQUIRED - (for media queries variables)
+// ==========================================================================
+
+@import
+	// 1 - TOOLS
+    "1-tools/colors",
+
+	// 2 - BASICS
+    "2-basics/body-element",
+    "2-basics/typography",
+    "2-basics/links",
+    "2-basics/selection-colors",
+    "2-basics/background-colors",
+    "2-basics/spacers",
+
+	// 3 - MODULES
+	// There are some great modules available for use here - > https://gist.github.com/claudiobonfati. 
+
+	// 4 - LAYOUT
+    "4-layout/header",
+    "4-layout/content",
+    "4-layout/footer"
+;
