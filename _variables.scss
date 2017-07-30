@@ -6,20 +6,20 @@
 // To apply the color as 'color text', add the class "lay-color-[colorname]" to HTML element.
 // To apply the color as 'background color', add the class "lay-bg-[colorname]" to HTML element.
 $color-config:(		"white": 	#FFF, 
-					"black": 	#000
+			"black": 	#000
 );
 
 // Some predefined spacers. Each value is for a specific screen size (bootstrap), see below.
 // To apply the spacer, add <span class="spacer-[spacername]"></span> in your HTML file.
-// 					NAME 		LG 			MD 			SM 			XS 			'XXS' (really small)
+// 			NAME 		LG 		MD 		SM 		XS 		'XXS' (really small)
 $spacer-config: 	"lg" 		300px 		280px 		250px		225px		200px, 
-					"md" 		200px 		180px 		150px		125px		100px, 
-					"sm" 		100px 		80px 		50px		25px		15px,
-					"xs" 		50px 		40px 		30px		20px		10px;
+			"md" 		200px 		180px 		150px		125px		100px, 
+			"sm" 		100px 		80px 		50px		25px		15px,
+			"xs" 		50px 		40px 		30px		20px		10px;
 
 // Some predefined font-sizes. Each value is for a specific screen size (bootstrap), see below.
 // To apply the font-size, add the class "font-[fontsizename]" to HTML element.
-// 					NAME 		LG 			MD 			SM 			XS 			'XXS' (really small)
+// 			NAME 		LG 		MD 		SM 		XS 		'XXS' (really small)
 $fontsize-config: 	"big" 		40px 		35px 		30px		27px		15px, 
-					"medium" 	25px 		20px 		17px		15px		15px,
-					"small" 	16px 		16px 		15px		14px		14px;
+			"medium" 	25px 		20px 		17px		15px		15px,
+			"small" 	16px 		16px 		15px		14px		14px;
