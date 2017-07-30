@@ -1,0 +1,27 @@
+// ==========================================================================
+// BASICS > SPACERS
+// ==========================================================================
+
+@each $value in $spacer-config
+	.spacer-#{nth($value, 1)}
+		height: nth($value, 2)
+
+@media (max-width: $screen-md-max)
+	@each $value in $spacer-config
+		.spacer-#{nth($value, 1)}
+			height: nth($value, 3)
+
+@media (max-width: $screen-sm-max)
+	@each $value in $spacer-config
+		.spacer-#{nth($value, 1)}
+			height: nth($value, 4)
+
+@media (max-width: $screen-xs-max)
+	@each $value in $spacer-config
+		.spacer-#{nth($value, 1)}
+			height: nth($value, 5)
+
+@media (max-width: $screen-xs-min)
+	@each $value in $spacer-config
+		.spacer-#{nth($value, 1)}
+			height: nth($value, 6)
